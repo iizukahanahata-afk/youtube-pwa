@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   color: #18353d;
   background: #fff8df;
   font-family: "Arial Rounded MT Bold", "Hiragino Maru Gothic ProN", "Yu Gothic", system-ui, sans-serif;
@@ -149,11 +149,11 @@ button:disabled {
 
 .video-card {
   display: grid;
-  grid-template-columns: 132px 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr auto;
   gap: 8px 16px;
   width: 100%;
-  min-height: 144px;
+  min-height: unset;
   padding: 12px;
   border: 4px solid #17343b;
   border-radius: 8px;
@@ -176,11 +176,11 @@ button:disabled {
 
 .cover {
   position: relative;
-  grid-row: 1 / span 2;
+  grid-row: unset;
   display: grid;
   place-items: center;
-  width: 132px;
-  min-height: 112px;
+  width: 100%;
+  min-height: 180px;
   border-radius: 8px;
   overflow: hidden;
   background-size: cover;
@@ -437,3 +437,4 @@ textarea {
     width: 100%;
   }
 }
+

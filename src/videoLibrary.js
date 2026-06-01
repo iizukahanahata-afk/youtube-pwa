@@ -32,13 +32,6 @@ export const initialLibrary = [
     color: "linear-gradient(135deg, #5eead4, #60a5fa)"
   },
   {
-    id: "disney",
-    title: "ディズニー",
-    kind: "video",
-    url: "https://www.youtube.com/watch?v=YVVTZgwYwVo&list=PLS046no9mLpznG5y8h5W3xZ78G73d6kvz&pp=sAgC",
-    color: "linear-gradient(135deg, #a78bfa, #f472b6)"
-  },
-  {
     id: "ms-rachel-community",
     title: "Ms Rachel Visits Places in the Community",
     kind: "playlist",
