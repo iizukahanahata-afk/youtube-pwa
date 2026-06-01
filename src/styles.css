@@ -129,7 +129,7 @@ button:disabled {
 
 .video-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: unset;
   gap: 18px;
 }
 
@@ -149,8 +149,8 @@ button:disabled {
 
 .video-card {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr auto;
+  grid-template-columns: unset;
+  grid-template-rows: auto auto;
   gap: 8px 16px;
   width: 100%;
   min-height: unset;
@@ -318,7 +318,7 @@ textarea {
 
 .inline-form {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: unset auto;
   gap: 10px;
 }
 
@@ -334,7 +334,7 @@ textarea {
 
 .registered-item {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: unset auto;
   gap: 12px;
   align-items: center;
   padding: 12px;
@@ -394,7 +394,7 @@ textarea {
   }
 
   .video-card {
-    grid-template-columns: 1fr;
+    grid-template-columns: unset;
     grid-template-rows: auto auto auto;
   }
 
@@ -422,11 +422,11 @@ textarea {
   }
 
   .inline-form {
-    grid-template-columns: 1fr;
+    grid-template-columns: unset;
   }
 
   .registered-item {
-    grid-template-columns: 1fr;
+    grid-template-columns: unset;
   }
 
   .danger-button {
@@ -437,4 +437,5 @@ textarea {
     width: 100%;
   }
 }
+
 
