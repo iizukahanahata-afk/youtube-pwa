@@ -1,0 +1,19 @@
+{
+  "name": "Kids Tube",
+  "short_name": "KidsTube",
+  "description": "子供用YouTubeビューア",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff8df",
+  "theme_color": "#f7c948",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
