@@ -326,6 +326,7 @@ function HomePage({ library }) {
           <p className="eyebrow">Kids Tube</p>
           <h1>みたいものをえらんでね</h1>
         </div>
+      <button className="settings-button" type="button" onClick={() => (window.location.hash = "/settings")}>⚙</button>
       </header>
 
       {library.length === 0 ? (
@@ -385,6 +386,7 @@ function PlaylistPage({ playlist }) {
           ← もどる
         </button>
         <h1>{playlist.title}</h1>
+      <button className="settings-button" type="button" onClick={() => (window.location.hash = "/settings")}>⚙</button>
       </header>
 
       <button className="wide-action-button" type="button" onClick={() => (window.location.hash = `/watch/${playlist.id}`)}>
@@ -414,6 +416,7 @@ function WatchPage({ video }) {
           ← もどる
         </button>
         <h1>{video.title}</h1>
+      <button className="settings-button" type="button" onClick={() => (window.location.hash = "/settings")}>⚙</button>
       </header>
 
       <div className="player-frame">
@@ -570,7 +573,8 @@ function ParentSettings({ addedLibrary, setAddedLibrary }) {
             ← もどる
           </button>
           <h1>親設定</h1>
-        </header>
+        <button className="settings-button" type="button" onClick={() => (window.location.hash = "/settings")}>⚙</button>
+      </header>
 
         <form className="pin-panel" onSubmit={unlock}>
           <label htmlFor="pin">PIN</label>
@@ -598,6 +602,7 @@ function ParentSettings({ addedLibrary, setAddedLibrary }) {
           ← もどる
         </button>
         <h1>親設定</h1>
+      <button className="settings-button" type="button" onClick={() => (window.location.hash = "/settings")}>⚙</button>
       </header>
 
       <div className="settings-stack">
@@ -701,5 +706,7 @@ function ParentSettings({ addedLibrary, setAddedLibrary }) {
 }
 
 createRoot(document.getElementById("root")).render(<App />);
+
+
 
 
