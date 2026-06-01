@@ -407,13 +407,13 @@ textarea {
 
 @media (max-width: 420px) {
   .video-card {
-    grid-template-columns: 104px 1fr;
-    min-height: 124px;
+    grid-template-columns: unset;
+    min-height: unset;
   }
 
   .cover {
-    width: 104px;
-    min-height: 96px;
+    width: 100%;
+    min-height: 150px;
   }
 
   .play-badge {
@@ -437,5 +437,6 @@ textarea {
     width: 100%;
   }
 }
+
 
 
