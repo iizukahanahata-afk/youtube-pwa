@@ -438,5 +438,45 @@ textarea {
   }
 }
 
+@media (max-width: 700px) and (orientation: portrait) {
+  .watch-screen {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100dvh;
+    min-height: 100dvh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #000000;
+  }
+
+  .watch-screen .player-header {
+    position: fixed;
+    top: max(10px, env(safe-area-inset-top));
+    left: max(10px, env(safe-area-inset-left));
+    z-index: 3;
+    margin: 0;
+  }
+
+  .watch-screen .player-header h1 {
+    display: none;
+  }
+
+  .watch-screen .player-frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100dvh;
+    height: 100vw;
+    aspect-ratio: auto;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    transform: translate(-50%, -50%) rotate(90deg);
+    transform-origin: center;
+  }
+}
+
 
 

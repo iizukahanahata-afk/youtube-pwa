@@ -1,4 +1,4 @@
-const CACHE_NAME = "kids-tube-v12";
+const CACHE_NAME = "kids-tube-v13";
 const APP_SHELL = [
   "/",
   "/index.html",
